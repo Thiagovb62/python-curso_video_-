@@ -1,0 +1,6 @@
+name=str(input('seu nome é :')).strip()
+print('analisando....')
+print('em minusculo fica {} , em maiscula fica {}'.format(name.lower(),name.upper()))
+print('seu nome tem {} letras'.format(len(name)-name.count(' ')))
+name=name.split()
+print('seu primeiro nome eh {}, e ele tem {}letras'.format(name[0],len(name[0])))
